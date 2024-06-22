@@ -1,0 +1,61 @@
+## Eclipse – Atalhos para Produtividade
+
+### Visualização e Navegação
+- **Ctrl + M**: Maximiza a tela de código.
+- **Ctrl + (Page Up ou Page Down)**: Alterar entre as abas de código.
+- **Ctrl + Shift + W**: Fecha todos os editores abertos no Eclipse.
+- **Ctrl + O**: Pesquisar membros dentro de uma classe aberta.
+- **Ctrl + T**: Ver todas as subclasses de uma classe ou todas as classes que sobrescrevem um método (selecionar a classe ou método antes).
+- **Alt + seta para esquerda**: Voltar.
+
+### Edição e Formatação
+- **Ctrl + SPACE**: Completa código ou dá opções para completar (ex.: `syso`, `fore`, `main`, etc).
+- **Ctrl + 1**: Verificar opções para o alerta no código.
+- **Ctrl + S**: Salvar.
+- **Ctrl + D**: Apagar uma linha.
+- **Ctrl + Shift + F**: Formatar e organizar o código.
+- **Alt + (cima ou baixo)**: Movimentar a linha selecionada para cima ou para baixo.
+- **Ctrl + Alt + (cima ou baixo)**: Copiar a linha selecionada logo abaixo.
+- **Ctrl + 2 (+ L)**: Criar uma variável local após informar o tipo (ex.: `new Carro()`).
+- **Alt + Shift + A**: Seleção em blocos (ex.: adicionar "private" em vários atributos).
+
+### Criação e Geração de Código
+- **Ctrl + N**: Criar uma classe nova ou outro artefato.
+- **Shift + Alt + S (depois R)**: Gerar Getters e Setters (`ggas`).
+- **Ctrl + 3 (digitar Delegate)**: Gerar métodos delegados.
+- **Alt + Shift + M**: Extrair método (refatorar código, criando um método menor).
+- **Alt + Shift + L**: Extrair variável local.
+- **Ctrl + 3**: Abre opção para abrir algum menu, escrevendo seu apelido ou parte do nome (ex.: `ggas` para Getters and Setters, `gcuf` para Generate Constructor using Fields).
+
+### Busca e Navegação em Arquivos
+- **Ctrl + Shift + O**: Imports automáticos ou opções de imports.
+- **Ctrl + Shift + R**: Open Resource, procurar qualquer arquivo pelo nome.
+- **Ctrl + Shift + T**: Open Type, para procurar classes.
+- **F3**: Abrir uma classe, selecionando a tipagem no código, ou para a declaração de um elemento dentro da mesma classe.
+- **Ctrl + F**: Busca textual no arquivo atual.
+- **Ctrl + H**: Busca textual em qualquer arquivo no workspace (File Search).
+- **Ctrl + Shift + G**: Ver onde um método, classe ou atributo está sendo usado por outras classes.
+- **Ctrl + Shift + H**: Hierarquia de chamadas de métodos.
+
+### Execução e Depuração
+- **Ctrl + F11**: Executar (Run As).
+- **Alt + Shift + X (depois T)**: Executar testes automatizados do JUnit.
+  - **Barra verde**: Todos os testes passaram.
+  - **Barra vermelha**: Pelo menos um teste falhou.
+- **Ctrl + Shift + B**: Inserir Breakpoints no debug.
+- **F6**: Modo debug, executar uma linha.
+- **F8**: Modo debug, executar até o próximo breakpoint ou até o final da execução.
+- **Ctrl + F2**: Parar a execução atual do debug.
+- **Ctrl + Shift + I**: Mostrar valores de uma variável selecionada.
+- **Ctrl + Shift + D**: Abre a aba Display.
+
+### Configurações e Preferências
+- **Ctrl + 3 (digitar Preferences)**: Abre o menu de preferências.
+- **Ctrl + F8**: Mudar a perspectiva (ex.: Java para JavaEE).
+- **Ctrl + 3 (digitar SLN)**: Mostrar os números das linhas de código.
+- **Ctrl + Shift + L**: Lista de todos os atalhos do Eclipse.
+
+### Renomeação e Refatoração
+- **Alt + Shift + R**: Renomear variáveis ou classes e suas devidas referências.
+
+Utilize esses atalhos para aumentar sua produtividade no Eclipse, tornando a codificação mais eficiente e organizada.
